@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="APPLICATION TEsting" thread-count="3" verbose="1" >
+    
+
+<!-- <suite name="IREPAIR PHASE2 APPLICATION" >	 -->
+	 
+	  <test name="ASsignment">
+		<classes>
+		    <class name="com.seleniumTestNG.suite1.HdfcBank"/>
+			<class name="com.seleniumTestNG.suite1.Amazon" />
+			<class name="com.seleniumTestNG.suite1.TechBeamerSite" />
+		</classes>
+	</test> 
+
+	
+	  
+
+	
+</suite>
+  	 
